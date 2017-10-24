@@ -1,0 +1,481 @@
+@charset "UTF-8";
+
+body{
+	background-color: white; 
+	background: radial-gradient(#8B8970 50%, #000000);
+	background-attachment: fixed;
+}
+
+header{
+	width: 101%;
+	margin-left: -10px;
+}
+
+nav{
+	width: 1160px;
+	margin-top: -2px;
+	background: #4682B4;
+	height: 30px;
+	position: relative;
+}
+
+#principal{
+	float: right;
+	margin: 4px 30px auto;
+	box-shadow:2px 4px 10px rgba(25,25,112,.3) inset;
+	width: 400px;
+	padding: 3px 2px 2px 8px;
+	border-radius: 8px;
+}
+
+li{
+	display: inline-block;
+}
+
+#principal li a{
+	text-decoration: none;
+	color: black;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: #6495ED;
+	border-radius: 5px;
+	box-shadow: 2px 1px 1px rgba(0,0,0,.6);
+}
+
+.submenu{
+	background: rgba(100,149,237,0.7);
+}
+
+.submenu li{
+	margin: 2px;
+}
+
+#menuSobre{
+	position: absolute;
+	top: 25px;
+	right: 150px;
+	width: 140px;
+	padding: 4px;
+}
+
+#menuUsuario{
+	position: absolute;
+	top: 25px;
+	right: 65px;
+	width: 150px;
+	padding: 4px;
+}
+
+p{
+	display: block;
+	text-align: justify;
+	text-indent: 3em;
+	margin-bottom: -1em;
+	font-size: 20px;
+}
+
+form{
+	margin: 17px auto;
+	font-family: verdana,sans-serif;
+	font-size: 14px;
+	width: 430px;
+	height: 300px;	
+}
+
+.mapSat{
+	float: left;
+	width: 90px;
+	height: 90px;
+	position: relative;
+}
+
+.tex{
+/*	padding: 40px;*/
+	position: absolute;
+	top: 90px;
+	left: -25px;
+	font-family: arial,sans-serif;
+	font-size: 60%;
+}
+
+form span{
+	margin: 40px auto auto 180px;
+}
+
+input{
+	margin: 2px 0px 0px 10px ;
+	width: 250px;
+	box-shadow: inset 1px 0px 0px 1px #dddddd;
+}
+
+label{
+	display: block;
+	width: 130px;
+	text-align: right;
+	float: left;
+}
+
+textarea{
+	margin-left: 10px;
+	width: 248px;
+	height: 150px;
+	box-shadow: inset 1px 0px 0px 1px #dddddd;
+	resize: none;
+}
+
+option{
+	width: 230px ;
+}
+
+select{
+	width: 256px;
+	margin-top: 2px;
+}
+
+.button{
+	margin-right: 15px;
+	width: 100px;
+}
+
+
+.butt{
+	clear: both;
+	text-indent: 0em;
+	margin: 10px 0px 0px 130px;	
+	width: 280px;
+}
+
+.tituloForm{
+	margin-bottom: 5px;
+	border-bottom: 1px dashed grey;
+	width: 430px;
+	margin-top: 40px;
+}
+
+.esquerda{
+	display: block;
+	float: left;
+	text-align: right;
+	position: relative;
+	width: 450px;
+	height: 450px;
+	margin: 0px;
+}
+
+
+.direita{
+	display: block;
+	float: right;
+	margin: 2px auto 2px auto;;
+	width: 450px;
+	height: 450px;
+}  
+
+
+#galeria{
+	width: 100%;
+	position: relative;
+}
+
+
+#formFoto{
+	display: block;
+	float: right;
+	margin: 0px auto 2px auto;
+	width: 450px;
+	height: 400px;
+}
+
+#formFoto input{
+	border: 0px;
+}
+
+#galeria b{
+	position: absolute;
+	top: 2px;
+	left:	200px; 
+	background: rgba(255,255,0,0.7);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+
+#galeria ul{
+	width: 100%;
+	height: 40px;
+	padding: 0px;
+	position: absolute;
+	top: 60px;
+
+}
+
+#formFoto span{
+	margin: 0px;
+	border: 1px solid blue;
+	opacity: 0;
+}
+
+#galeria li{
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+	margin: 0px;
+	font-size: 10px;
+	padding: 0px;
+	overflow: hidden;
+	list-style: none;
+	transition: all 0.1s ease-in;
+
+}
+
+#galeria li:hover {
+	transform: scale(1.5);
+
+}
+
+#galeria li#seta_volta:hover{
+	background-size: 40px 40px;
+	background-position: 0px 0px;
+}
+
+
+#seta_volta{
+	background: url("../imagens/seta_volta.png") no-repeat;
+	background-size: 40px 40px;
+	float: left;
+}
+
+
+#seta_ida{
+	background: url("../imagens/seta_ida.png") no-repeat;
+	background-size: 40px 40px;
+	float: right;
+}
+
+#folder{
+	width: 100%;
+}
+
+.central{
+	clear: both;
+	margin: 0px auto;
+	width: 500px;
+	height: 100px;
+}
+
+.emot{
+	margin-left: 430px;
+}
+.emot p{
+	float: left;
+	text-indent: 50px;
+}
+
+.caixa h1{
+	font-family: andalus, verdana, sans-serif;
+}
+
+.caixa h2 {
+	color: #6E6E6E;
+	font-size: 18px;
+}
+
+#textomenu {
+	position: relative;
+}
+
+#textomenu h1{
+	display: none;
+}
+
+#textomenu ul {
+	position: absolute;
+	top: -30px;
+	left: 500px;
+}
+
+#textomenu li {
+	display: inline-block;
+	background-color: #708090;
+	border-radius: 0.5em;
+	box-shadow: 3px 3px 5px #000000;
+	padding: 7px;
+	margin: 5px;
+	transition: background-color 0.5s;
+}
+
+#textomenu li:hover{
+	background-color:  #d9d9d9;
+	box-shadow: 0px 0px 0px;
+}
+
+#textomenu a{
+	color: black;
+	text-decoration: none;
+}
+
+
+#textomenu a:hover{
+	color: #ffffff;	
+}
+
+section{
+	width: 100%;
+	height: 340px; 
+	text-align: center;
+}
+
+section input{
+	border: 0px;
+}
+
+#interface{
+	width: 1140px;
+	background-color: white;
+	margin: -20px auto; 
+	box-shadow: 0px 0px 10px black;
+	padding: 10px 10px 80px 10px; 	
+	border-radius: 0.6em;
+}
+
+.caixa{
+	width: 80%;
+	margin: 78px auto;
+	font-size: 12px;
+	border: 0px;
+	border-radius: 1em;
+	BACKGROUND: rgba(112,128,144,0.2); 
+	padding: 20px 20px 120px 20px;
+	font-family: Verdana ,arial ,serif;
+}
+
+.conteudoCaixa{
+	margin: 0px auto;
+	clear: both;
+	width: 450px;
+	height: 250px;
+}
+
+#caixaContrato{
+	font-size: 70%;
+	width: 250px;
+	display: block;
+	float: right;
+	margin-right: 20px;
+}
+
+#concordo{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 10px auto auto 110px;
+}
+
+.botaoCell{
+	width: 120px;
+	text-indent: 0em;
+	clear: both;
+	font-size: 80%;
+	font-family: verdana, andalus, sans-serif;
+}
+
+#captureImade{
+	width: 250px;
+}
+
+#cabecalho {
+	height: 150px;	
+}
+
+#backg {
+	margin: 0px auto;
+	background: url("../imagens/logoBG.png") no-repeat 0px 0px;
+	background-size: contain;
+	width: 90%;
+	height: 160px;
+}
+
+#trans{
+	position: absolute;
+	top: -140px;
+	left: 635px;
+	width: 80px;
+	height: 75px;
+}
+
+#trans1{
+	position: absolute;
+	top: -140px;
+	left: 820px;
+	width: 80px;
+	height: 75px;
+}
+
+#trans2{
+	position: absolute;
+	top: -170px;
+	left: 900px;
+	width: 70px;
+	height: 75px;
+}
+
+#linksContrato{
+	width: 350px;
+	display: block;
+	float: left;
+	font-size: 13px;
+	margin: auto auto auto -10px;
+}
+
+#downloadContrato{
+	clear: both;
+	font-size: 12px;
+	margin: auto 5px 1px auto;
+}
+
+#downloadContrato a{
+	color: blue;
+	float: right;
+
+}
+
+#contrato{
+	width: 	99%;
+	height: 250px;
+	overflow: hidden;
+}
+
+
+footer{ 
+	border: 1px solid grey;
+	width: 1150px;
+	height: 60px;
+	margin: -10px auto; 
+	background: rgba(169,169,169, 0.8);
+	clear: both;
+	margin: 20px auto 0px auto;
+}
+
+footer p{
+	display: block;
+	float: left;
+	width: 48%;
+	text-align: right;
+	color: white;
+	opacity: 0.5;
+	margin-top: 20px;
+}
+
+footer span{
+	display: block;
+	float: right;
+	width: 550px;
+	height: 50px;
+	margin: 2px;
+}
+
+footer img{
+	width:	230px;
+}

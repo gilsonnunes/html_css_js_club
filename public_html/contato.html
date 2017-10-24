@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<TITLE>CLUB VIP</TITLE>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="css/web.css" >
+	<link rel="stylesheet" href="css/celular.css" media="(max-width: 980px) ">
+	<meta http-equiv="author"
+	content="Emerson Rodrigues"
+	/>
+
+	<meta name="description"
+	content="cadastro no clubvip, aplicativo android integrando html, para empresa / boate, 
+	fornecendo a ela uma vantagem de mais clientes com baixo investimento"
+	/>
+
+	<meta name="keywords" 
+	content="curtição, cadastro, boate, cliente, lucro, investimento"
+	/>
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--  <script src="javascript/bola.js"></script> javascript controle de rostos -->
+	<script src="javascript/jquery311.js"></script> <!--  jquery -->
+	<script src="javascript/jq_formulario.js"></script>
+</head>
+<body>
+
+<div id="interface" >
+
+
+	<header id="cabecalho">
+		<div id="backg"></div>
+		<nav id="textomenu">
+			<h1> menu principal</h1>
+			<ul >
+				
+
+			<li> <a href="index.html">PRINCIPAL   	</a> </li>
+			<li> <a href="saiba.html">SAIBA MAIS  	</a> </li>
+			<li> <a href="usuario.html">USUÁRIO    	</a> </li>
+			<li> <a href="contato.html">FALE CONOSCO</a> </li>
+			
+			</ul>
+		</nav>	
+	</header>
+
+	<fieldset class="caixa">
+
+	<!--                                       CONTEUDO                                 -->
+
+<div class="central" >
+
+	<img src="imagens/a5_off.png" id="a5" > </img>
+	<img src="imagens/a4_off.png" id="a4" > </img>
+	<img src="imagens/a3_off.png"  id="a3" > </img>
+	<img src="imagens/a2_off.png" id="a2" > </img>
+	<img src="imagens/a1_off.png"  id="a1" > </img>
+</div>
+
+			<form id="formContato">
+				<p class="tituloForm">Dados para contato</p>
+				<label>Nome:</label>		<input type="text" 		name="nome" placeholder="Nome Completo" maxlength="40" id="nomeLogin" />			</br>
+				<label>Telefone:</label>	<input type="number" 	name="telefone" placeholder="(00)0000-0000" maxlength="11" id="telefoneLogin" />	</br>
+				<label>Email:</label>		<input type="email" placeholder="email@contato.com" name="email" maxlength="40" id="emailCadastro">		</br>
+				<label>comentário:</label>	<textarea 	 placeholder="duvidas e sugestões" 	maxlength="400"	name="comentario"></textarea>		</br>
+		
+				<div class="butt">
+					<input class="botaoCell" type="submit" value="enviar" id="botaoConfirma">
+					<input class="botaoCell" type="submit" value="cancelar">
+				</div>
+	
+			</form>
+
+<!--                                       CONTEUDO                                 -->
+
+	</fieldset>
+
+</div> 
+
+</br>
+
+<footer>
+	<p>Produzido por Emerson Rodrigues </p>
+	<span>
+	<img src="imagens/icons_rodape.png" usemap="#iconmap"></img>
+	<map name="iconmap">
+		<area shape="rect" coords="0,0,47,40" href="sun.html" alt="webs" >
+		<area shape="rect" coords="47,0,94,40" href="sun1.html" alt="apps" >
+		<area shape="rect" coords="94,0,141,40" href="sun2.html" alt="youtube" >
+		<area shape="rect" coords="141,0,188,40" href="sun3.html" alt="faces" >
+		<area shape="rect" coords="188,0,237,40" href="sun4.html" alt="links" >
+	</map>
+	</span>
+</footer>
+
+</body>
+</html>
