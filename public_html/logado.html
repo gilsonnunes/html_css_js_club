@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+
+<head>
+
+	<TITLE>CLUB VIP</TITLE>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta  charset="content-type";"UTF-8"; "text/html">
+	<link rel="stylesheet" href="css/web.css" >
+	<link rel="stylesheet" href="css/celular.css" media="(max-width: 980px) ">
+
+	<meta http-equiv="author"
+	content="Emerson Rodrigues"
+	/>
+
+	<meta name="description"
+	content="cadastro no clubvip, aplicativo android integrando html, para empresa / boate / casa de show, 
+	fornecendo a ela uma vantagem de mais clientes com baixo investimento financeiro e riquiza"
+	/>
+
+	<meta name="keywords" 
+	content="curti��o, cadastro, boate, cliente, lucro, investimento, prazer, dinheiro, retorno"
+	/>
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="javascript/geral.js"></script>
+
+</head>
+<body onload=" longinUsuario()">
+
+<div id="interface" >
+
+	<header id="cabecalho">
+		<div id="backg"></div>
+		<nav id="textomenu">
+		<h1> menu principal</h1>
+			<ul >
+				<li> <a href="index.html">PRINCIPAL   </a> </li>
+				<li> <a href="saiba.html">SAIBA MAIS  </a> </li>
+				<li> <a href="usuario.html">USU�RIO    </a> </li>
+				<li> <a href="contato.html">FALE CONOSCO</a> </li>
+			</ul>
+		</nav>	
+	</header>
+
+<fieldset class="caixa">
+
+<!--                                       CONTEUDO                                 -->
+
+<section>
+		<form>
+		<p class="tituloForm">Dados Pessoais</p>
+			<label>Nome:</label> 		<input type="text"  id="DpNome" disabled>			</br>
+			<label>Telefone:</label>	<input type="text"  id="DpTelefone" disabled>	 	</br>
+			<label>CPF:</label> 		<input type="text"  id="DpCpf" disabled>			</br>
+			<label>CNPJ:</label> 		<input type="text"  id="DpCnpj" disabled>			</br>
+			<label>Email:</label> 		<input type="text"  id="DpEmail" disabled>		</br>
+			<label>Endere�o:</label> 	<input type="text"  id="DpEnd" disabled>	 	</br>
+		</form>
+</section>
+<div  class="esquerda">
+	
+	<form>
+		<p class="tituloForm">cadastro de eventos</p>
+		<label>Titulo evento:</label>	<input type="text" name="titulo">					</br>
+		<label>Telefone:</label>	<input type="text" name="Telefone">					</br>
+		<label>Data:</label>		<input type="text" name="data">						</br>
+		<label>Valor:</label>		<input type="text" name="Valor">					</br>
+		<label>Local:</label>		<input type="text" name="cheklocal" placeholder="longitude e latitude">	</br>
+		<label>Imagem:</label>		<input id="captureImade" type="file" name="image" accept="image">	</br>
+		<label>coment�rio:</label>	<textarea name="comentario" id="perfil"></textarea>			</br>
+	
+		<div class="butt">
+			<input class="button" type="submit" value="enviar">
+			<input class="button" type="submit" value="cancelar">
+		</div>
+	</form>
+</div>
+
+
+<div  class="direita">
+	<form id="formFoto">
+		<p class="tituloForm">Eventos cadastrados</p>
+		<div id="galeria">
+			<b>EDIT</b>
+			<img src="imagens/perfil.jpg" id="folder"/></br> 
+			<ul>
+				<li id="seta_volta">	<span>	VOLTA	</span></li>
+				<li id="seta_ida">	<span>	IDA	</span></li>
+			</ul>
+		</div>
+		</br>
+		<label>Titulo evento:</label>	<input type="text"  id="EcTituloEvento" disabled>		</br>
+		<label>Telefone:</label> 	<input type="text"  id="EcTelefone" disabled>	 		</br>
+		<label>Data:</label> 		<input type="text"  id="EcData" disabled>			</br>
+		<label>Valor:</label> 		<input type="text"  id="EcValor" disabled> 			</br>
+		<label>Imagem:</label>		<input type="text"  id="EcImagem" disabled> 			</br>
+		<label>Local:</label>		<input type="text"  id="ECLocal	name="cheklocal" disabled>	</br>
+		<label>Coment�rio:</label>	<input type="text"  id="EcComent�rio" disabled>  		</br>
+		
+
+	</form>
+</div>
+
+<!--                                       CONTEUDO                                 -->
+
+</fieldset>
+
+</div> 
+
+</br>
+
+<footer>
+	<p>Produzido por Emerson Rodrigues </p>
+	<span>
+	<img src="imagens/icons_rodape.png" usemap="#iconmap"></img>
+	<map name="iconmap">
+		<area shape="rect" coords="0,0,47,40" href="sun.html" alt="webs" >
+		<area shape="rect" coords="47,0,94,40" href="sun1.html" alt="apps" >
+		<area shape="rect" coords="94,0,141,40" href="sun2.html" alt="youtube" >
+		<area shape="rect" coords="141,0,188,40" href="sun3.html" alt="faces" >
+		<area shape="rect" coords="188,0,237,40" href="sun4.html" alt="links" >
+	</map>
+	</span>
+
+</footer>
+
+</body>
+</html>

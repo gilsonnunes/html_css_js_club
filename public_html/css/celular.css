@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+html{
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+	background: none;
+	margin: 0px;
+}
+
+
+#interface{
+
+	width: 100%;
+	background-color: white;
+	margin: 0px;
+	box-shadow: none;
+	padding: 0px;	
+	border-radius: 0px;
+	padding: 0px 0px 20px 0px;
+}
+
+
+#cabecalho {
+	
+	height: 150px;
+	margin-bottom: 0px;
+}
+
+
+#backg {
+
+
+	background: url("../imagens/logoBG.png") no-repeat 0px 0px;
+	background-size: contain;
+	height: 150px;
+	width: 100%;
+}
+
+
+.caixa{
+
+	width: 800px;
+	margin: 0px auto;
+	border-radius: 0em;
+	background: white;
+	text-align: left;
+	text-indent: 0em;	
+	font-size: 200%;
+	padding: 60px 5px 30px 5px;
+}
+
+#contrato{
+	clear: both;
+	margin: 0px;
+	width: 	99%;
+	height: 1000px;
+}
+
+.caixa h1{
+	margin: 5px auto -5px auto;
+	font-family: andalus, verdana, sans-serif;
+	font-size: 130%;
+}
+
+.caixa h2 {
+	
+	 font-family: andalus, verdana, sans-serif;  
+
+	
+}
+
+.esquerda{
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.direita{
+	margin: 0px auto;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 400px;
+}
+
+.direita b{
+	position: relative;
+	margin: 0px auto;
+	background: rgba(255,255,0,0.7);
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+#galeria{
+	width: 100%:
+	height: 500px;
+	margin: 0px auto;
+}
+
+
+#folder{
+	text-indent: 0em;
+	width: 100%;
+	margin: 0px;
+}
+
+.tituloForm{
+	text-indent: 0em;
+	margin: 5px auto;
+	font-family: andalus,  verdana;
+	border-bottom: 1px dashed grey;
+	width: 350px;
+}
+
+.central{
+	display: block;
+	float: left;
+	margin: 5px auto;
+	font-family: verdana, andalus;
+	font-size: 14px;
+	width: 450px;
+	height: 400px;
+	padding: 5px;
+
+}
+
+form{
+	margin: 17px auto auto 150px;
+	font-family: verdana;
+	font-size: 14px;
+	width: 430px;
+	height: 300px;	
+	border: 0px solid grey;
+}
+
+input{
+
+	margin: 0px;
+	width: 250px;
+}
+
+label{
+
+	margin: 0px;
+	display: block;
+	width: 150px;
+	text-align: right;
+
+}
+
+#butt{
+	text-indent: 0em;
+	margin: 20px 0px 0px 50px;	
+}
+
+
+.botaoCell{
+	clear: both;
+	padding: 10px;
+	margin: 5px 5px 5px 70px;
+	font-size: 130%;
+	font-family: verdana, andalus;
+	width: 200px;
+}
+
+#formFoto{
+	display: block;
+	float: left;
+	margin: 0px auto 2px 150px;
+	width: 450px;
+	height: 400px;
+}
+
+textarea{
+	margin-left: 0px;
+	width: 248px;
+	box-shadow: inset 1px 0px 0px 1px #dddddd;
+
+}
+
+#textomenu {
+	position: relative;
+}
+
+#textomenu h1{
+	display: none;
+}
+
+
+
+#textomenu ul {
+ 	position: absolute;	
+	top: -20px;	
+ 	left: 40%;	
+}
+
+#textomenu li {
+
+	display: inline-block;
+	background-color: #708090;
+	border-radius: 0.5em;
+	box-shadow: 3px 3px 5px #000000;
+	padding: 7px;
+	margin: 5px 5px 0px 5px;
+	transition: background-color 0.5s;
+}
+
+
+#textomenu li:hover{
+	
+	background-color:  #d9d9d9;
+	box-shadow: 0px 0px 0px;
+
+}
+
+#textomenu a{
+
+	color: black;
+	text-decoration: none;
+	 
+}
+
+
+#textomenu a:hover{
+
+	color: #ffffff;
+
+}
+
+section{
+	width: 100%; 
+	height: 400px;
+	text-align: center;
+}
+
+aside{
+	width: 100%; 	
+	height: 900px;
+}
+
+footer{ 
+	width: 99%;
+	margin: 0px auto; 	
+	height: 120px;
+	background: rgba(192, 192, 192,0.8);
+}
+
+
+footer p{
+	margin: 50px 0px;
+	color: white;
+	display: inline-block;
+	width: 400px;
+	text-align: right;
+	opacity: 0.9;
+	font-size: 110%;
+}
+
+
+footer span{
+	width: 400px;
+	position: relative;
+	margin: 0px;
+}
+
+footer img{
+	width:  390px;
+	left: 	28%;
+	margin:  10px 0px;
+}
