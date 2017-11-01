@@ -2,12 +2,13 @@
 <html lang="pt-br">
 
 <head>
+
 	<TITLE>CLUB VIP</TITLE>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="viewport" http-equiv="Content-Type" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="css/web.css" >
 	<link rel="stylesheet" href="css/celular.css" media="(max-width: 980px) ">
-	<meta http-equiv="author"
-	content="Emerson Rodrigues"
+	<link rel="stylesheet" href="css/responsivo.css" >
+	
 	/>
 
 	<meta name="description"
@@ -15,9 +16,6 @@
 	fornecendo a ela uma vantagem de mais clientes com baixo investimento"
 	/>
 
-	<meta name="keywords" 
-	content="curtição, cadastro, boate, cliente, lucro, investimento"
-	/>
 
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,9 +25,9 @@
 	<script src="javascript/jquery311.js"></script> <!--  jquery -->
 	<script src="javascript/jq_formulario.js"></script>
 </head>
-<body>
+<body id="bor">
 
-<div id="interface" >
+<div id="interface" class="relative">
 
 
 	<header id="cabecalho">
@@ -39,7 +37,7 @@
 			<ul >
 				
 
-			<li> <a href="index.html">PRINCIPAL   	</a> </li>
+			<li> <a align="left" href="index.html">PRINCIPAL   	</a> </li>
 			<li> <a href="saiba.html">SAIBA MAIS  	</a> </li>
 			<li> <a href="usuario.html">USUÁRIO    	</a> </li>
 			<li> <a href="contato.html">FALE CONOSCO</a> </li>
@@ -52,7 +50,7 @@
 
 	<!--                                       CONTEUDO                                 -->
 
-<div class="central" >
+<div class="relative" >
 
 	<img src="imagens/a5_off.png" id="a5" > </img>
 	<img src="imagens/a4_off.png" id="a4" > </img>
@@ -61,6 +59,7 @@
 	<img src="imagens/a1_off.png"  id="a1" > </img>
 </div>
 
+<div class="relative">
 			<form id="formContato">
 				<p class="tituloForm">Dados para contato</p>
 				<label>Nome:</label>		<input type="text" 		name="nome" placeholder="Nome Completo" maxlength="40" id="nomeLogin" />			</br>
@@ -68,13 +67,13 @@
 				<label>Email:</label>		<input type="email" placeholder="email@contato.com" name="email" maxlength="40" id="emailCadastro">		</br>
 				<label>comentário:</label>	<textarea 	 placeholder="duvidas e sugestões" 	maxlength="400"	name="comentario"></textarea>		</br>
 		
-				<div class="butt">
-					<input class="botaoCell" type="submit" value="enviar" id="botaoConfirma">
-					<input class="botaoCell" type="submit" value="cancelar">
+				<div class="relative">
+					<input  class="button" type="submit" value="enviar" id="botaoConfirma">
+					<input class="button" type="submit" value="cancelar">
 				</div>
 	
 			</form>
-
+</div>
 <!--                                       CONTEUDO                                 -->
 
 	</fieldset>
