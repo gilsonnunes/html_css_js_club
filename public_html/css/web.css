@@ -395,6 +395,7 @@ section input{
 	background-size: contain;
 	width: 90%;
 	height: 160px;
+	position: relative;
 }
 
 #trans{
