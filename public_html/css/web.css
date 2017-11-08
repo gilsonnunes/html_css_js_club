@@ -395,16 +395,9 @@ section input{
 	background-size: contain;
 	width: 90%;
 	height: 160px;
+	position: relative;
 }
 
-#backg {
-	margin: 0px auto;
-	background: url("../imagens/logoBG.png") no-repeat 0px 0px;
-	background-size: contain;
-	width: 90%;
-	height: 160px;
-}
-}
 #trans{
 	position: absolute;
 	top: -140px;
