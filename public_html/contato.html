@@ -26,6 +26,7 @@
 	<!--  <script src="javascript/bola.js"></script> javascript controle de rostos -->
 	<script src="javascript/jquery311.js"></script> <!--  jquery -->
 	<script src="javascript/jq_formulario.js"></script>
+	<script src="javascript/ValidarContato.js"></script>
 </head>
 <body>
 
@@ -61,7 +62,7 @@
 	<img src="imagens/a1_off.png"  id="a1" > </img>
 </div>
 
-			<form id="formContato">
+			<form id="formContato" method="post"  onsubmit="return valida_form(this)">
 				<p class="tituloForm">Dados para contato</p>
 				<label>Nome:</label>		<input type="text" 		name="nome" placeholder="Nome Completo" maxlength="40" id="nomeLogin" />			</br>
 				<label>Telefone:</label>	<input type="number" 	name="telefone" placeholder="(00)0000-0000" maxlength="11" id="telefoneLogin" />	</br>
