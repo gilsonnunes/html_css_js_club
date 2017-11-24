@@ -34,6 +34,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="javascript/jq_menu.js"></script>
 	<script src="javascript/jq_formulario.js"></script>
+	<script src="javascript/Validarcadastro.js"></script>
 
 </head>
 <body>
@@ -67,14 +68,14 @@
 
 <div class="esquerda">
 
-	<form >
+	<form id="formCadastro" method="post"  action="#" onsubmit="return valida_form(this)">
 		<p class="tituloForm" >Cadastro</p>
 
 		<label>Nome: </label>				<input type="text" 	name="nome" 		maxlength="40" id="nomeCadastro" 		placeholder="Nome Completo" /> </br>
 		<label>Telefone:  </label>			<input type="text" 	name="telefone"  	maxlength="11" id="telefoneCadastro" 	placeholder="Telefone pessoal"/> </br>		
-		<label>Cpf:  </label> 			<input type="number"  	name="cpf" 			maxlength="11" id = "cpfCadastro" /> </br>
+		<label>Cpf:  </label> 			<input type="number"  	name="cpf" 		placeholder="000.000.000-00" 	maxlength="11" id = "cpfCadastro" /> </br>
 		<label>CNPJ:  </label>				<input type="text" 	name="cnpj" 		maxlength="14" id="cnpjCadastro" /> </br>
-		<label>Email:  </label>				<input type="email" name="email" 		maxlength="30" id="emailCadastro" /> </br>
+		<label>Email:  </label>				<input type="email" name="email" 	placeholder="Exemplo@hotmail.com"	maxlength="30" id="emailCadastro" /> </br>
 		<label for="estado">Estado:  </label>		
 			<select>
 				<optgroup label="Região Norte">
